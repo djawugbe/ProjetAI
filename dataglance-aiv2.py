@@ -119,8 +119,6 @@ def detect_pii(df):
 def smart_clean(df):
     """Nettoyage intelligent des données."""
 
-    def smart_clean(df):
-
     new_df = df.copy()
 
     for col in new_df.columns:
